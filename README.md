@@ -3,7 +3,7 @@ examples of applying functional programming towards building tensorflow graphs
 
 example 1: build a fully connected neural network of any given depth and width from a given topology list. 
 
-1) define a function that builds a function for each layer in the topology list
+1) define a function that builds a function for each layer
 2) build a list of layer functions
 3) compose layer functions into a model function 
 4) evaluate the model function
