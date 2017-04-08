@@ -1,2 +1,11 @@
-# functional-tensorflow
-examples of applying functional programming towards building tensorflow graphs in an elegant way
+# functional-tensorflow 
+examples of applying functional programming towards building tensorflow graphs
+
+example 1: build a fully connected neural network of any given depth and width from a given topology list. 
+
+1) define a function that builds a function for each layer in the topology list
+2) build a list of layer functions
+3) compose layer functions into a model function 
+4) evaluate the model function
+
+note that lambda delays evaluation, helps with encapsulation, and helps treating functions as first-class objects
