@@ -8,4 +8,4 @@ example 1: build a fully connected neural network of any given depth and width f
 3) compose layer functions into a model function 
 4) evaluate the model function
 
-note that lambda delays evaluation, helps treating functions as first-class objects, and helps with encapsulation
+note that lambda delays evaluation, helps treating functions as first-class objects, and helps with encapsulation. the "functional approach" is limited to neural network construction, but the entire class could be expressed functionally as well, if practical.
