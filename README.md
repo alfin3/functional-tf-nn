@@ -1,7 +1,7 @@
 # functional-tf-nn 
-examples of applying functional programming towards building tensorflow graphs
+example of applying functional programming towards building tensorflow graphs
 
-example 1: build a fully connected neural network of any given depth and width from a topology list 
+build a fully connected neural network of any given depth and width from a topology list 
 
 1) define a function that builds a function for each layer
 2) build a list of layer functions
