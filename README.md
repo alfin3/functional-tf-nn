@@ -11,3 +11,5 @@ build a fully connected neural network of any given depth and width from a topol
 note that lambda delays evaluation, helps treating functions as first-class objects, and helps with encapsulation.
 
 data set is available at: https://archive.ics.uci.edu/ml/datasets/Covertype (some features need pre-processing to 0 mean and unit variance).
+
+![alt tag](https://cloud.githubusercontent.com/assets/25671774/25096616/df883790-2355-11e7-81ce-99911c271704.png)
