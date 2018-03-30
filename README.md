@@ -4,7 +4,7 @@ example of applying function composition to towards building tensorflow graphs
 build a fully connected feedforward neural network of any given depth and width from a topology list 
 
 1) define a function that builds a function for each layer
-2) build a list of layer functions
+2) build layer functions
 3) compose layer functions into a model function 
 4) evaluate the model function
 
