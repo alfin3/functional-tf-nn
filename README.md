@@ -1,5 +1,5 @@
 # functional-tf-nn 
-example of applying functional programming towards building tensorflow graphs
+example of applying function composition to towards building tensorflow graphs
 
 build a fully connected feedforward neural network of any given depth and width from a topology list 
 
