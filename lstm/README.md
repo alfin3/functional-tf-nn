@@ -1,4 +1,4 @@
-# functional-tf-lstm
+# functional-tf-nn/lstm
 
 example of applying function composition towards building tensorflow graphs
 
