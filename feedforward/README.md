@@ -1,4 +1,4 @@
-# functional-tf-nn/feedforward/
+# functional-tf-nn/feedforward
 
 example of applying function composition to towards building tensorflow graphs
 
