@@ -1,2 +1,5 @@
 # functional-tf-nn
-building neural networks with higher-order functions
+
+examples of applying higher-order functions towards building tensorflow graphs
+
+higher order functions enable Keras-like simplicity while providing research flexibility for modifications, such as rewiring LSTM cells into new variants, experimenting with different dropout and pruning schemes, and accessing gradients.
