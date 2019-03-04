@@ -8,7 +8,7 @@ build a fully connected feedforward neural network of any given depth and width 
 2) compose layer functions into a model function 
 3) evaluate the model function
 
-note that lambda delays evaluation, helps treating functions as first-class objects, and helps with encapsulation.
+higher order functions simplify code while providing research flexibility for modifications, such as experimenting with different dropout and pruning schemes, and accessing gradients. note that lambda delays evaluation, helps treating functions as first-class objects, and helps with encapsulation.
 
 the data set is available at: https://archive.ics.uci.edu/ml/datasets/Covertype (some features need pre-processing to 0 mean and unit variance).
 
