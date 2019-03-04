@@ -1,6 +1,6 @@
 # functional-tf-nn/lstm
 
-example of applying higher-order funcations towards building tensorflow graphs
+example of applying higher-order functions towards building tensorflow graphs
 
 build a multilayer LSTM from a topology list  
 
