@@ -9,7 +9,7 @@ build a multilayer LSTM from a topology list
 3) compose layer functions into a model function 
 4) evaluate the model function
 
-higher order functions simplify code while providing research flexibility for modifications, such as rewiring cells into new variants and experimenting with different dropout schemes. note that lambda delays evaluation, helps treating functions as first-class objects, and helps with encapsulation.
+higher order functions simplify code while providing research flexibility for modifications, such as rewiring cells into new variants, experimenting with different dropout schemes, and accessing gradients. note that lambda delays evaluation, helps treating functions as first-class objects, and helps with encapsulation.
 
 tested on English, German, and Russian text corpora that are available at: http://www.statmt.org/wmt16/translation-task.html
 
