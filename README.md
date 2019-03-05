@@ -15,7 +15,7 @@ build a fully connected feedforward neural network of any given depth and width 
 build a multilayer LSTM from a topology list  
 
 1) build a cell function for each layer
-2) build a layer function for each layer from cell functions
+2) build layer functions from cell functions
 3) compose layer functions into a model function 
 4) evaluate the model function
 
