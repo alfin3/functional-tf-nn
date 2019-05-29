@@ -2,7 +2,7 @@
 
 examples of applying higher-order functions towards building tensorflow graphs
 
-higher order functions enable code simplicity while providing research flexibility for modifications, such as experimenting with different dropout and pruning schemes, and accessing gradients.
+higher-order functions enable code simplicity while providing research flexibility for modifications, such as experimenting with different dropout and pruning schemes, and accessing gradients. The higher-order approach could enable to flexibly compose and iterate over learning algorithms.
 
 # functional-tf-nn/feedforward
 build a fully connected feedforward neural network of any given depth and width from a topology list:
