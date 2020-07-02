@@ -1,18 +1,18 @@
 # functional-tf-nn
 
-examples of applying higher-order functions towards building tensorflow graphs
+Examples of applying higher-order functions towards building TensorFlow graphs.
 
-higher-order functions enable code simplicity while providing research flexibility for modifications, such as experimenting with dropout and pruning schemes, and accessing gradients. The higher-order approach could enable to flexibly compose and iterate over learning algorithms.
+Higher-order functions enable code simplicity, while providing research flexibility for modifications, such as experimenting with dropout and pruning schemes, and accessing gradients.
 
 # functional-tf-nn/feedforward
-build a fully connected feedforward neural network of any given depth and width from a topology list:
+Build a fully connected feedforward neural network of any given depth and width from a topology list:
 
 1) build layer functions
 2) compose layer functions into a model function
 3) evaluate the model function
 
 # functional-tf-nn/lstm
-build a multilayer LSTM from a topology list  
+Build a multilayer LSTM from a topology list: 
 
 1) build a cell function for each layer
 2) build layer functions from cell functions
