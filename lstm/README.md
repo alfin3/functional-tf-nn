@@ -13,8 +13,9 @@ Higher order functions simplify code while providing research flexibility for mo
 
 Tested on English, German, and Russian text corpora that are available at: http://www.statmt.org/wmt16/translation-task.html
 
-![layer2_unroll](https://user-images.githubusercontent.com/25671774/38122719-99067ac4-338b-11e8-8e66-ee366df8e62c.png)
-
 **Quick start**
 
 Extract `news-commentary-v11.en`, and run `python3 -m tf_run_char_lstm` in an enviroment with TensorFlow (most recently tested on 1.4.0).
+
+![layer2_unroll](https://user-images.githubusercontent.com/25671774/38122719-99067ac4-338b-11e8-8e66-ee366df8e62c.png)
+
