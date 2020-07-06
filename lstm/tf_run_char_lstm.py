@@ -3,7 +3,8 @@ tf_run_char_lstm.py
 
 Implements training and evaluation functions.
 
-Tested on English, German, and Russian text corpora. 
+Tested on English, German, and Russian text corpora in 
+http://www.statmt.org/wmt16/translation-task.html
 
 Python 3.5.2
 TensorFlow 1.1.0
@@ -23,15 +24,13 @@ RU_LOWERCASE = 'абвгдеёжзийклмнопрстуфхцчшщъыьэю
 RU_UPPERCASE = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
 EN_LOWERCASE = 'abcdefghijklmnopqrstuvwxyz'
 EN_UPPERCASE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-LANGUAGE_CHARS = DE_LOWERCASE + DE_UPPERCASE
+LANGUAGE_CHARS = EN_LOWERCASE + EN_UPPERCASE
 VOCAB_SIZE = len(LANGUAGE_CHARS) + 1
 
 #data
-EN_DATA_FILE = 'news.2015.en.shuffled'
-DE_DATA_FILE = 'news.2015.de.shuffled'
-RU_DATA_FILE = 'news.2015.ru.shuffled'
+DATA_FILE = 'news-commentary-v11.en'
 DATA_ROOT = './'
-DATA_FILE = os.path.join(DATA_ROOT, DE_DATA_FILE)
+DATA_FILE = os.path.join(DATA_ROOT, DATA_FILE)
 VALID_SET_SIZE = 10000
 
 #model
@@ -43,8 +42,8 @@ DECAY_RATE = 0.75
 CLIP_NORM = 2.5 
 TRAIN_KEEP_PROB = 0.85
 EVAL_KEEP_PROB = 1.0
-LSTM_TOPOLOGY = [VOCAB_SIZE, 128, 128]
-CLASSIFIER_TOPOLOGY = [128, 1024, 1024, 1024, #1024, #1024, #1024, #1024
+LSTM_TOPOLOGY = [VOCAB_SIZE, 64, 64]
+CLASSIFIER_TOPOLOGY = [64, 1024, 1024, #1024, #1024, #1024, #1024
                        VOCAB_SIZE] 
 NUM_STEPS = 10001
 PRINT_FREQ = 100
@@ -53,7 +52,7 @@ PRINT_SENTENCE_SIZE = 100
 PRINT_NUM_SENTENCES = 10
 
 #records
-MODEL_NAME = 'de_64_2x1024d_2'
+MODEL_NAME = 'en_2x64_2x1024_1'
 RECORDS_ROOT = './'
 CHECKPOINT_FOLDER = os.path.join(RECORDS_ROOT, 'checkpoints', MODEL_NAME, '')
 GRAPH_FOLDER = os.path.join(RECORDS_ROOT, 'graphs', MODEL_NAME, '')
