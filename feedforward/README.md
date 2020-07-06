@@ -12,11 +12,12 @@ Higher order functions simplify code while providing research flexibility for mo
 
 The data set is available at: https://archive.ics.uci.edu/ml/datasets/Covertype (some features were pre-processed to 0 mean and unit variance).
 
-![alt tag](https://cloud.githubusercontent.com/assets/25671774/25096616/df883790-2355-11e7-81ce-99911c271704.png)
-
 **Quick start**
 
 Extract `covertype.pickle`, and then run `python3 -m tf_run_nn` in an enviroment with TensorFlow (most recently tested on 1.4.0).
+
+![alt tag](https://cloud.githubusercontent.com/assets/25671774/25096616/df883790-2355-11e7-81ce-99911c271704.png)
+
 
 
 
