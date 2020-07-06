@@ -16,7 +16,7 @@ import tf_nn
 from tf_data import load_data
 
 #data
-DATA_ROOT = '/home/ubuntu/covertype'
+DATA_ROOT = './'
 PICKLE_DATA_FILE = os.path.join(DATA_ROOT, 'covertype.pickle')
 
 #nn topology
@@ -30,7 +30,7 @@ NN_TOPOLOGY_LST = [54,
 NN_MODEL_NAME = 'nn_model_hl8_f'
 
 #records
-RECORDS_ROOT = '/home/ubuntu/covertype/'
+RECORDS_ROOT = './'
 CHECKPOINT_FOLDER = os.path.join(RECORDS_ROOT, 'checkpoints', NN_MODEL_NAME, '')
 GRAPH_FOLDER = os.path.join(RECORDS_ROOT, 'graphs', NN_MODEL_NAME, '')
 
