@@ -1,11 +1,11 @@
 # functional-tf-nn
 
-Examples of applying higher-order functions towards building TensorFlow graphs.
+The commonly used libraries for implementing, training, and evaluating learning algorithms often improve usability at the expense of research flexibility. However, achieving a higher relational abstraction level does not require a trade-off between usability and flexibility.
 
-Higher-order functions enable code simplicity, while providing research flexibility for modifications, such as experimenting with dropout and pruning schemes, and accessing gradients.
+The provided examples of higher-order representation of function composition in neural networks were implemented within the constraints of a commonly used library (TensorFlow), and enable code simplicity and research flexibility for modifications, such as experimenting with dropout and pruning schemes, and accessing gradients. Generalizing this approach could potentially provide extensibility and programmability comparable to a language such as LISP.
 
 # functional-tf-nn/feedforward
-Build a fully connected feedforward neural network of any given depth and width from a topology list:
+Build a fully connected feedforward neural network from a topology list:
 
 1) build layer functions
 2) compose layer functions into a model function
