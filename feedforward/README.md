@@ -1,8 +1,8 @@
 # functional-tf-nn/feedforward
 
-An example of applying higher-order funcations towards building TensorFlow graphs.
+An example of applying higher-order functions towards building TensorFlow graphs.
 
-Build a fully connected feedforward neural network of any given depth and width from a topology list:
+Build a fully connected feedforward neural network from a topology list:
 
 1) build layer functions
 2) compose layer functions into a model function
